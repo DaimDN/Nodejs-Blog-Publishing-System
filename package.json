@@ -1,7 +1,7 @@
 {
   "name": "ejs-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "EJS Challenge files",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,14 @@
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "node": "^13.12.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaimDN/Nodejs-Blog-Publishing-System.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaimDN/Nodejs-Blog-Publishing-System/issues"
+  },
+  "homepage": "https://github.com/DaimDN/Nodejs-Blog-Publishing-System#readme"
 }
