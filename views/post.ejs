@@ -1,0 +1,44 @@
+<section class="bg-dark">
+
+<% include partials/header %>
+
+
+
+
+<div class="jumbotron bg-dark text-white">
+  <div class="container">
+
+
+
+ <h1 class="display-3 text-center">
+<%=entryHead%>
+ </h1>
+
+
+</div>
+  </div>
+ </section>
+<div class="container">
+<div class="text-center">
+  <h2><%=entryHead.substr(0,15)%> <%=entryHead.substr(5,100)%></h2>
+</div>
+
+
+
+<div class="row">
+  <div class="col">
+<p><i>Published on <%=Date%></i></p>
+  </div>
+  <div class="col">
+<p style="float:right;"><i>Publisher <%=publisher%></i></p>
+  </div>
+
+</div>
+
+
+
+
+<p><%=entryBody%></p>
+</div>
+</div>
+<% include partials/footer %>

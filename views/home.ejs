@@ -1,0 +1,55 @@
+
+<body class="bg-dark">
+
+
+<% include partials/header %>
+<div class="jumbotron bg-dark text-white">
+  <div class="container">
+
+
+
+
+<h2 class="text-white g">DAILYJOURNAL PUBLISHERS  </h2>
+
+<div class="text-white text z text-center">Frontline in Publishing Articles</div>
+<br>
+
+<p><%=homePar%></p>
+
+
+
+
+<div class="row mx-auto">
+
+
+
+
+
+
+  <% toDoList.forEach(function(entry) { %>
+
+<div class="col-md-3">
+  <div class="card bg-secondary x" style="width: 17rem; margin-right:50px; margin-bottom: 40px; ">
+    <div class="card-body">
+      <h3 class="card-title"><a style="color: white; " href="/posts/<%=entry.entryHead%>"><%=entry.entryHead.substr(0,40)%></a></h3>
+
+      <p class="card-text"><p><%=entry.entryBody.substr(0,120)%> </p></p>
+      <a href="#" class="card-link"><a href="/posts/<%=entry.entryHead%> " class="btn btn-sm btn-info"> Read Article</a></a>
+      <br> <br>
+      <h6 class="card-subtitle mb-2 text-muted" style="color:white !important;"><%=entry.Date%></h6>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+  <% }); %>
+
+</div>
+</div>
+</div>
+
+<% include partials/footer %>
+</body>

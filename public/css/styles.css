@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.g{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.2rem !important;
+  font-weight: 900 !important;
+  text-align: center;
+}
+
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.z{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+
+}

@@ -1,0 +1,24 @@
+<% include partials/header %>
+<br>
+<div class="container">
+
+
+<h2><%=header1%></h2>
+
+<form action="/compose" method="post" class="form-group">
+  <label for="">Title</label>
+  <input type="text" name="postTitle" value="" class="form-control" placeholder="Title of the Journal" required>
+  <label>Post</label>
+  <textarea name="postBody" value="" class="form-control" rows="5" placeholder="Description of the Journal" cols="30" required></textarea>
+  <br>
+    <label for="">Date</label>
+  <input type="date" name="date" class="form-control" value="" required>
+  <br>
+    <label for="">Publisher</label>
+  <input type="text" name="publisher" class="form-control" placeholder="Name of the Publisher" value="" required>
+  <br>
+
+  <button type="submit" name="button" class="btn btn-primary mt-2">Publish</button>
+</form>
+</div>
+<% include partials/footer %>
